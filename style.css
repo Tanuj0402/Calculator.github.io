@@ -1,0 +1,53 @@
+.mx-auto{
+    margin: auto;
+}
+
+.bg-red{
+    background-color: red;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: yellow;
+    font-size:medium ;
+    font-weight: bolder;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    font-size: 23px;
+    padding: 9px 0px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.row_for_C button{
+    justify-content: center;
+    width: 200px;
+}
+.container{
+    background-color: black;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 70px;
+    height: 440px;
+}
